@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus, :active {
+  outline: none;
+}
+
+a:focus, a:active {
+  outline: none;
+}
+
+nav, footer, header, aside {
+  display: block;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input, button, textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a, a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slick-dots li {
+  list-style: none;
+  margin: 0px 10px;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #EE6C23;
+  border-radius: 50%;
+  margin-top: 16px;
+}
+
+.slider .slick-dots li.slick-active button {
+  background-color: #EE6C23;
+}
+
+.slider {
+  position: relative;
+  padding: 0px 60px;
+  width: 500px;
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  font-size: 0;
+  width: 46px;
+  height: 46px;
+}
+
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url("../images/button_left.png") 0 0/100% repeat;
+}
+
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url("../images/button_right.png") 0 0/100% repeat;
+}
+
+.slider__item {
+  text-align: center;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.slider__item img {
+  border-radius: 15px;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.container {
+  width: 960px;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.main {
+  height: 1080px;
+}
+
+.main__header {
+  margin-top: 64px;
+  margin-bottom: 213px;
+}
+
+.main__header .container {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.main__header .container .main__phone {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 12 0px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #3442BD;
+  font-size: 24px;
+}
+
+.main__header .container .main__phone img {
+  width: 21px;
+  height: 21px;
+  margin-right: 13px;
+}
+
+.main__info .container {
+  margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__info .container .info__title {
+  width: 508px;
+}
+
+.main__info .container .info__title h1 {
+  font-family: Montserrat;
+  font-size: 40px;
+  color: #3442BD;
+  margin-bottom: 32px;
+}
+
+.main__info .container .info__title p {
+  font-size: 24px;
+  color: #003274;
+  margin-bottom: 32px;
+}
+
+.main__info .container .info__title button {
+  width: 240px;
+  height: 60px;
+  left: 320px;
+  top: 552px;
+  background: #F07E3F;
+  -webkit-box-shadow: 0px 4px 32px -5px #FF8A00;
+          box-shadow: 0px 4px 32px -5px #FF8A00;
+  border-radius: 20px;
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  text-align: center;
+  color: #FFFFFF;
+}

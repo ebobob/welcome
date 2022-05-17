@@ -1,0 +1,77 @@
+.slick-list {
+  overflow: hidden;
+}
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.slick-dots {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.slick-dots li {
+  list-style: none;
+  margin: 0px 10px;
+}
+
+.slick-dots li button {
+  font-size: 0;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #EE6C23;
+  border-radius: 50%;
+  margin-top: 16px;
+}
+
+.slider .slick-dots li.slick-active button {
+  background-color: #EE6C23;
+}
+
+.slider {
+  position: relative;
+  padding: 0px 60px;
+  width: 500px;
+}
+
+.slider .slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  font-size: 0;
+  width: 46px;
+  height: 46px;
+}
+
+.slider .slick-arrow.slick-prev {
+  left: 0;
+  background: url("../images/button_left.png") 0 0/100% repeat;
+}
+
+.slider .slick-arrow.slick-next {
+  right: 0;
+  background: url("../images/button_right.png") 0 0/100% repeat;
+}
+
+.slider__item {
+  text-align: center;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.slider__item img {
+  border-radius: 15px;
+}
