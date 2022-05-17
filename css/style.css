@@ -117,7 +117,7 @@ h1, h2, h3, h4, h5, h6 {
 .slider {
   position: relative;
   padding: 0px 60px;
-  width: 500px;
+  width: 480px;
 }
 
 .slider .slick-arrow {
@@ -155,7 +155,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-  width: 964px;
+  width: 1000px;
 }
 
 body {
@@ -213,7 +213,7 @@ body {
 }
 
 .main__info .container .info__title {
-  width: 508px;
+  width: 560px;
 }
 
 .main__info .container .info__title h1 {
