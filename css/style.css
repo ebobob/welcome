@@ -150,7 +150,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main {
-  height: 1080px;
+  height: 900px;
 }
 
 .main__header {
@@ -232,6 +232,11 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 28px;
   text-align: center;
   color: #FFFFFF;
+}
+
+.about {
+  height: 900px;
+  background-color: #3442BD;
 }
 
 .wrapper {
