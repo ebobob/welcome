@@ -1,3 +1,62 @@
 .form__content {
 	height: 100vh;
+
+	.form__info {
+		ul {
+			li {
+				margin-bottom: 45px;
+				font-family: 'Montserrat';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 29px;
+				color: #003274;
+				border-left: 3px solid #EE6C23;
+				padding-left: 10px;
+			}
+		}
+	}
+}
+
+.form__data {
+	background: #FFFFFF;
+	border-radius: 20px;
+	height: 440px;
+	width: 361px;
+	filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+	display: table-cell;
+	vertical-align: middle;
+
+	form {
+		margin-top: 44px;
+		margin-left: 33px;
+
+		input {
+			border: 3px solid #EE6C23;
+			border-radius: 20px;
+			width: 295px;
+			height: 48px;
+			margin-bottom: 24px;
+		}
+	}
+
+	button {
+
+		background: #F07E3F;
+		box-shadow: 0px 4px 32px -5px #FF8A00;
+		border-radius: 20px;
+		width: 240px;
+		height: 55px;
+		color: white;
+		font-weight: 700;
+		font-size: 16px;
+		line-height: 18px;
+		text-align: center;
+		margin-left: 61px;
+	}
+}
+
+.form__content {
+	display: flex;
+	justify-content: space-between;
 }
