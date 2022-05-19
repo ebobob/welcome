@@ -24,16 +24,18 @@
 }
 
 .main__info {
-		display: flex;
-		justify-content: space-between;
-		align-items: center;
-		.info__title {
-			width: 560px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+	.info__title {
+		width: 560px;
 
 		h1 {
 			font-size: 40px;
 			color: $color_blue_2;
 			margin-bottom: 32px;
+			font-weight: bold;
 		}
 
 		p {
