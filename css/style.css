@@ -235,22 +235,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about .about__content .title {
-  font-family: 'Montserrat';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 49px;
   color: #FFFFFF;
-  padding: 64px 0 0 0;
-  margin: 0 0 32px 0;
 }
 
 .about .about__content .sub__title {
-  font-family: 'Arial';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 28px;
   color: rgba(255, 255, 255, 0.5);
 }
 
@@ -297,19 +285,19 @@ h1, h2, h3, h4, h5, h6 {
   width: 280px;
 }
 
-.teachers__title {
+.title {
   margin-top: 64px;
   color: #003274;
 }
 
-.teachers__title h2 {
+.title h2 {
   font-size: 40px;
   font-weight: bold;
   font-family: Montserrat;
   margin-bottom: 32px;
 }
 
-.teachers__title p {
+.title p {
   font-size: 24px;
 }
 
@@ -446,6 +434,24 @@ h1, h2, h3, h4, h5, h6 {
 .container {
   width: 1200px;
   margin: 0 auto;
+}
+
+.title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  padding: 64px 0 0 0;
+  margin: 0 0 32px 0;
+}
+
+.sub__title {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
 }
 
 body {
