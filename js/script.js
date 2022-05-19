@@ -11,4 +11,15 @@ $(document).ready(function () {
 		autoplaySpeed: 4000,
 		fade: true,
 	});
+	$('.teacher_slider').slick({
+		adaptiveHeight: true,
+		slidesToShow: 3,
+		speed: 1000,
+		easing: 'ease',
+		centerMode: true,
+	});
+	$(".teacher_slider .slider__item").on("click", function () {
+		const index = $(this).attr("data-slick-index");
+		$(".teacher_slider").slick("slickGoTo", index);
+	});
 });
