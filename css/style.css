@@ -1,4 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;700&display=swap");
+* {
+  font-family: 'Montserrat', sans-serif;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -199,7 +203,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main__info .info__title h1 {
-  font-family: Montserrat;
   font-size: 40px;
   color: #3442BD;
   margin-bottom: 32px;
@@ -220,7 +223,6 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-shadow: 0px 4px 32px -5px #FF8A00;
           box-shadow: 0px 4px 32px -5px #FF8A00;
   border-radius: 20px;
-  font-family: 'Arial';
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -254,8 +256,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 33%;
 }
 
+.about .about__content .education__programs .program img {
+  width: 90%;
+}
+
 .about .about__content .education__programs .program .program__title {
-  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
@@ -266,7 +271,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about .about__content .education__programs .program ul li {
-  font-family: 'Arial';
   font-style: normal;
   font-weight: 400;
   font-size: 14px;
@@ -274,7 +278,7 @@ h1, h2, h3, h4, h5, h6 {
   margin: 15px 0;
   padding: 0 0 0 5px;
   color: #FFFFFF;
-  border-left: 3px solid orange;
+  border-left: 3px solid #EE6C23;
 }
 
 .teachers {
@@ -316,7 +320,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .teacher_slider .slider__item h3 {
   text-align: center;
-  font-family: Montserrat;
   color: #EE6C23;
   font-size: 25px;
   font-weight: bold;
@@ -325,7 +328,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .teacher_slider .slider__item p {
   margin-top: 25px;
-  font-family: 'Arial';
   color: #003274;
   font-size: 24px;
   text-align: center;
