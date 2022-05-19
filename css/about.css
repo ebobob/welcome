@@ -1,4 +1,37 @@
 .about {
-  height: 900px;
-  background-color: c;
+  height: 100vh;
+  background-color: #3442BD;
 }
+
+.about .about__content .title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: #FFFFFF;
+  padding: 64px 0 0 0;
+  margin: 0 0 32px 0;
+}
+
+.about .about__content .sub__title {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.about .about__content .education__programs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.about .about__content .education__programs .program {
+  width: 33%;
+}
+/*# sourceMappingURL=about.css.map */
