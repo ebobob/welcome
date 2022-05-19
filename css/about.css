@@ -34,4 +34,26 @@
 .about .about__content .education__programs .program {
   width: 33%;
 }
+
+.about .about__content .education__programs .program .program__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.about .about__content .education__programs .program ul li {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 15px 0;
+  padding: 0 0 0 5px;
+  color: #FFFFFF;
+  border-left: 3px solid orange;
+}
 /*# sourceMappingURL=about.css.map */

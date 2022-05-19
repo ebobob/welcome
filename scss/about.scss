@@ -25,6 +25,29 @@
 			justify-content: space-around;
 			.program {
 				width: 33%;
+				.program__title {
+					font-family: 'Montserrat';
+					font-style: normal;
+					font-weight: 700;
+					font-size: 16px;
+					line-height: 20px;
+					letter-spacing: 0.03em;
+
+					color: #FFFFFF;
+				}
+				ul {
+					li {
+						font-family: 'Arial';
+						font-style: normal;
+						font-weight: 400;
+						font-size: 14px;
+						line-height: 16px;
+						margin: 15px 0;
+						padding: 0 0 0 5px;
+						color: #FFFFFF;
+						border-left: 3px solid orange;
+					}
+				}
 			}
 		}
 	}
