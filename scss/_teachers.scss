@@ -7,19 +7,11 @@
 }
 
 .title {
-	margin-top: 64px;
 	color: $color_blue;
+}
 
-	h2 {
-		font-size: 40px;
-		font-weight: bold;
-		font-family: Montserrat;
-		margin-bottom: 32px;
-	}
-
-	p {
-		font-size: 24px;
-	}
+.sub__title {
+	color: $color_blue;
 }
 
 .teacher_slider {

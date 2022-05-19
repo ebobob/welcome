@@ -286,19 +286,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .title {
-  margin-top: 64px;
   color: #003274;
 }
 
-.title h2 {
-  font-size: 40px;
-  font-weight: bold;
-  font-family: Montserrat;
-  margin-bottom: 32px;
-}
-
-.title p {
-  font-size: 24px;
+.sub__title {
+  color: #003274;
 }
 
 .teacher_slider {
@@ -396,14 +388,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #3442BD;
 }
 
-.partners__title {
-  margin-top: 81px;
-}
-
-.partners__title h2 {
-  font-family: Montserrat;
-  font-size: 40px;
-  font-weight: bold;
+.title {
   color: #003274;
 }
 
