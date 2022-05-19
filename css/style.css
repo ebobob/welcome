@@ -508,6 +508,12 @@ h1, h2, h3, h4, h5, h6 {
   width: 295px;
   height: 48px;
   margin-bottom: 24px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 14px;
+  color: black;
+  padding: 18px;
 }
 
 .form__data button {
@@ -565,4 +571,3 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
-/*# sourceMappingURL=style.css.map */
