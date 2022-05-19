@@ -10,7 +10,7 @@
 		}
 		.education__programs {
 			display: flex;
-			justify-content: space-around;
+			justify-content: space-between;
 			margin: 70px 0 0 0;
 			.program {
 				width: 33%;
@@ -24,7 +24,8 @@
 					line-height: 20px;
 					letter-spacing: 0.03em;
 					color: #FFFFFF;
-					margin: 30px 0 60px 0;
+					margin: 30px 0 30px 0;
+					height: 60px;
 				}
 				ul {
 					li {
@@ -33,7 +34,7 @@
 						font-size: 16px;
 						line-height: 16px;
 						margin: 15px 0;
-						padding: 0 0 0 5px;
+						padding: 0 0 0 10px;
 						color: #FFFFFF;
 						border-left: 3px solid #EE6C23;
 					}
