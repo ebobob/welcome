@@ -414,6 +414,10 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
+.form__content {
+  height: 100vh;
+}
+
 .wrapper {
   min-height: 100%;
   overflow: hidden;

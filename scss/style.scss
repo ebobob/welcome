@@ -7,6 +7,9 @@
 @import "_teachers";
 @import "_feedback";
 @import "_partners";
+@import "_video";
+@import "_form";
+
 
 .wrapper {
 	min-height: 100%;
@@ -27,13 +30,14 @@
 	padding: 64px 0 0 0;
 	margin: 0 0 32px 0;
 }
+
 .sub__title {
 	font-family: 'Arial';
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 28px;
-	
+
 }
 
 body {
