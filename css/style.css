@@ -361,6 +361,36 @@ h1, h2, h3, h4, h5, h6 {
   background-color: #3442BD;
 }
 
+.partners__title {
+  margin-top: 81px;
+}
+
+.partners__title h2 {
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: bold;
+  color: #003274;
+}
+
+.partners__companies {
+  margin-top: 45px;
+}
+
+.partners__companies .partners__item {
+  margin: auto;
+  width: 447px;
+  height: 170px;
+  margin-bottom: 60px;
+  -webkit-box-shadow: 5px 8px 20px 5px rgba(0, 0, 0, 0.28);
+          box-shadow: 5px 8px 20px 5px rgba(0, 0, 0, 0.28);
+  border-radius: 20px;
+}
+
+.partners__companies .partners__item img {
+  display: block;
+  margin: 0 auto;
+}
+
 .wrapper {
   min-height: 100%;
   overflow: hidden;

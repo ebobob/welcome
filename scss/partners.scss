@@ -1,0 +1,29 @@
+.partners__title {
+	margin-top: 81px;
+
+	h2 {
+		font-family: Montserrat;
+		font-size: 40px;
+		font-weight: bold;
+		color: $color_blue;
+
+	}
+}
+
+.partners__companies {
+	margin-top: 45px;
+
+	.partners__item {
+		margin: auto;
+		width: 447px;
+		height: 170px;
+		margin-bottom: 60px;
+		box-shadow: 5px 8px 20px 5px rgba(0, 0, 0, 0.28);
+		border-radius: 20px;
+
+		img {
+			display: block;
+			margin: 0 auto
+		}
+	}
+}
