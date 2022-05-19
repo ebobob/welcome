@@ -1,12 +1,12 @@
-@import "colors.scss";
-@import "fonts.scss";
-@import "nullstyle.scss";
-@import "header_slider_style.scss";
-@import "main_style.scss";
-@import "about.scss";
-@import "teachers.scss";
-@import "feedback.scss";
-@import "partners.scss";
+@import "_colors";
+@import "_fonts";
+@import "_nullstyle";
+@import "_header_slider_style";
+@import "_main_style";
+@import "_about";
+@import "_teachers";
+@import "_feedback";
+@import "_partners";
 
 .wrapper {
 	min-height: 100%;
