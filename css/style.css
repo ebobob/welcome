@@ -150,25 +150,21 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .main {
-  height: 900px;
+  height: 100vh;
 }
 
 .main__header {
-  margin-top: 64px;
-  margin-bottom: 213px;
-}
-
-.main__header .container {
-  margin: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  padding-top: 64px;
+  margin-bottom: 213px;
 }
 
-.main__header .container .main__phone {
+.main__header .main__phone {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -180,14 +176,13 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 24px;
 }
 
-.main__header .container .main__phone img {
+.main__header .main__phone img {
   width: 21px;
   height: 21px;
   margin-right: 13px;
 }
 
-.main__info .container {
-  margin: auto;
+.main__info {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -199,24 +194,24 @@ h1, h2, h3, h4, h5, h6 {
           align-items: center;
 }
 
-.main__info .container .info__title {
+.main__info .info__title {
   width: 560px;
 }
 
-.main__info .container .info__title h1 {
+.main__info .info__title h1 {
   font-family: Montserrat;
   font-size: 40px;
   color: #3442BD;
   margin-bottom: 32px;
 }
 
-.main__info .container .info__title p {
+.main__info .info__title p {
   font-size: 24px;
   color: #003274;
   margin-bottom: 32px;
 }
 
-.main__info .container .info__title button {
+.main__info .info__title button {
   width: 240px;
   height: 60px;
   left: 320px;
@@ -235,16 +230,66 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .about {
-  height: 900px;
+  height: 100vh;
   background-color: #3442BD;
 }
 
-.teachers {
-  height: 900px;
+.about .about__content .title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 49px;
+  color: #FFFFFF;
+  padding: 64px 0 0 0;
+  margin: 0 0 32px 0;
 }
 
-.container {
-  margin: auto;
+.about .about__content .sub__title {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.about .about__content .education__programs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.about .about__content .education__programs .program {
+  width: 33%;
+}
+
+.about .about__content .education__programs .program .program__title {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 0.03em;
+  color: #FFFFFF;
+}
+
+.about .about__content .education__programs .program ul li {
+  font-family: 'Arial';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  margin: 30px 0;
+  padding: 0 0 0 2px;
+  color: #FFFFFF;
+  border-left: 3px solid orange;
+}
+
+.teachers {
+  height: 100vh;
 }
 
 .slick-slide {
@@ -354,10 +399,11 @@ h1, h2, h3, h4, h5, h6 {
   width: 46px;
   height: 46px;
   margin: -23px 0px 0px 0px;
+  height: 100vh;
 }
 
 .feedback {
-  height: 900px;
+  height: 100vh;
   background-color: #3442BD;
 }
 
@@ -397,9 +443,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-  width: 1000px;
+  width: 1200px;
+  margin: 0 auto;
 }
 
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+/*# sourceMappingURL=style.css.map */
