@@ -422,17 +422,17 @@ h1, h2, h3, h4, h5, h6 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  position: absolute;
+  position: relative;
+  border-top: 2px solid #fff;
+  border-bottom: 2px solid #fff;
   width: 200%;
   left: -50%;
 }
 
 .feedback .feedback__lines .line .line__item {
   padding: 30px;
-  border-top: 2px solid #fff;
-  border-bottom: 2px solid #fff;
   border-left: 2px solid #fff;
-  width: 45%;
+  width: 50%;
 }
 
 .feedback .feedback__lines .line .line__item:last-child {
@@ -455,7 +455,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .feedback .feedback__lines .line:last-child {
-  top: 193px;
+  border-top: none;
   left: -25%;
 }
 
@@ -472,9 +472,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .partners__companies .partners__item {
-  margin: auto;
-  width: 447px;
-  height: 170px;
+  margin: 0 auto;
+  width: 100%;
   margin-bottom: 60px;
   -webkit-box-shadow: 5px 8px 20px 5px rgba(0, 0, 0, 0.28);
           box-shadow: 5px 8px 20px 5px rgba(0, 0, 0, 0.28);
@@ -489,6 +488,17 @@ h1, h2, h3, h4, h5, h6 {
 .video {
   height: 100vh;
   background: #3442BD;
+}
+
+.video .video__content .title {
+  text-align: left;
+  color: #fff;
+}
+
+.video .video__content .video__block {
+  max-width: 960px;
+  height: 500px;
+  margin: 100px auto 0 auto;
 }
 
 .form__content {
@@ -616,3 +626,4 @@ h1, h2, h3, h4, h5, h6 {
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
+/*# sourceMappingURL=style.css.map */

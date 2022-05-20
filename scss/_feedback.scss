@@ -16,15 +16,15 @@
 		margin: 150px 0 0 0;
 		.line {
 			display: flex;
-			position: absolute;
+			position: relative;
+			border-top: 2px solid #fff;
+			border-bottom: 2px solid #fff;
 			width: 200%;
 			left: -50%;
 			.line__item {
 				padding: 30px;
-				border-top: 2px solid #fff;
-				border-bottom: 2px solid #fff;
 				border-left: 2px solid #fff;
-				width: 45%;
+				width: 50%;
 				&:last-child {
 					border-right: 2px solid #fff;
 				}
@@ -46,7 +46,7 @@
 				}
 			}
 			&:last-child {
-				top: 193px;
+				border-top: none;
 				left: -25%;
 			}
 		}
