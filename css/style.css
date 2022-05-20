@@ -145,8 +145,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .slider__item {
   text-align: center;
-  -webkit-transition: all 0.1s ease 0s;
-  transition: all 0.1s ease 0s;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
 }
 
 .slider__item img {
@@ -585,11 +585,11 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form__block form .form__btn:hover {
-  background: #e67639;
+  background: #F4945F;
 }
 
 .form__block form .form__btn:active {
-  background: #db6e33;
+  background: #E26723;
 }
 
 .form__content {
