@@ -14,7 +14,7 @@ $(document).ready(function () {
 	$('.teacher_slider').slick({
 		adaptiveHeight: true,
 		slidesToShow: 3,
-		speed: 650,
+		speed: 1900,
 		easing: 'ease',
 		centerMode: true,
 	});
