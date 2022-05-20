@@ -492,6 +492,11 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-shadow: 5px 8px 20px 5px rgba(0, 0, 0, 0.28);
           box-shadow: 5px 8px 20px 5px rgba(0, 0, 0, 0.28);
   border-radius: 20px;
+  max-width: 100%;
+}
+
+.partners .partners__content .partners__companies .partners__item img {
+  max-width: 100%;
 }
 
 .video {
@@ -613,7 +618,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-  width: 1200px;
+  max-width: 1200px;
   height: 100%;
   margin: 0 auto;
 }
@@ -636,5 +641,6 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  max-width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
