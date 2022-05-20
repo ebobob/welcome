@@ -552,18 +552,58 @@ h1, h2, h3, h4, h5, h6 {
           justify-content: center;
 }
 
-.form__block form .form__data-input {
+.form__block form .form__row {
+  margin-bottom: 24px;
+  position: relative;
+}
+
+.form__block form .form__row .form__data-input {
   border: 3px solid #EE6C23;
   border-radius: 20px;
   width: 295px;
-  height: 48px;
-  margin-bottom: 24px;
+  height: 55px;
   font-style: normal;
   font-weight: 400;
-  font-size: 12px;
+  font-size: 14px;
   line-height: 14px;
   color: black;
   padding: 18px;
+  background-color: transparent;
+  opacity: 0.52;
+  outline: none;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.form__block form .form__row .form__data-input:focus {
+  opacity: 1;
+}
+
+.form__block form .form__row .form__data-input:focus ~ .form__label {
+  opacity: 1;
+  font-size: 12px;
+  top: 5px;
+}
+
+.form__block form .form__row .form__data-input:not(:placeholder-shown) ~ .form__label {
+  opacity: 0.52;
+  font-size: 12px;
+  top: 5px;
+}
+
+.form__block form .form__row .form__label {
+  position: absolute;
+  left: 20px;
+  top: 20px;
+  z-index: -1;
+  color: #003274;
+  opacity: 0.52;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 14px;
 }
 
 .form__block form .form__btn {
