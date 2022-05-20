@@ -661,11 +661,6 @@ h1, h2, h3, h4, h5, h6 {
   height: 35px;
 }
 
-<<<<<<< HEAD
-.footer .container .footer__content .footer__links ul li:first-child {
-  margin-bottom: 20px;
-}
-
 .coordinates {
   height: 100vh;
   background: #3442BD;
@@ -700,8 +695,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 12px;
 }
 
-=======
->>>>>>> ecc765fe710c9117558ab2df70d3775759f36344
 .wrapper {
   min-height: 100%;
   overflow: hidden;
@@ -733,7 +726,6 @@ h1, h2, h3, h4, h5, h6 {
 body {
   max-width: 100%;
 }
-<<<<<<< HEAD
 
 .form .form__info ul li, .coordinates .container .coordinates__content .coordinates__info ul li {
   margin-bottom: 45px;
@@ -745,6 +737,3 @@ body {
   border-left: 3px solid #EE6C23;
   padding-left: 10px;
 }
-=======
-/*# sourceMappingURL=style.css.map */
->>>>>>> ecc765fe710c9117558ab2df70d3775759f36344
