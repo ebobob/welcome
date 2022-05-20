@@ -23,8 +23,11 @@ $(document).ready(function () {
 		$(".teacher_slider").slick("slickGoTo", index);
 	});
 	$(".main__btn").click(function () {
-		$("html, body").animate({ scrollTop: $(".main").height() + 4250 }, "slow");
-		return false;
+		$(".main").click(function () {
+			$('html, body').animate({
+				scrollTop: $(".form").offset().top
+			}, 1100);
+		});
 	});
 });
 AOS.init();
