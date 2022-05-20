@@ -23,3 +23,4 @@ $(document).ready(function () {
 		$(".teacher_slider").slick("slickGoTo", index);
 	});
 });
+AOS.init();
