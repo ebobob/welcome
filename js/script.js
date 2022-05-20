@@ -22,12 +22,10 @@ $(document).ready(function () {
 		const index = $(this).attr("data-slick-index");
 		$(".teacher_slider").slick("slickGoTo", index);
 	});
-	$(".main__btn").click(function () {
-		$(".main").click(function () {
-			$('html, body').animate({
-				scrollTop: $(".form").offset().top
-			}, 1100);
-		});
+	$("#btn").click(function () {
+		$('html, body').animate({
+			scrollTop: $(".form").offset().top
+		}, 1100);
 	});
 });
 AOS.init();
