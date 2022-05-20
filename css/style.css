@@ -660,13 +660,13 @@ h1, h2, h3, h4, h5, h6 {
   margin-right: 46px;
 }
 
+.footer .container .footer__content .footer__links ul li {
+  margin: 15px 0;
+}
+
 .footer .container .footer__content .footer__links ul li img {
   width: 35px;
   height: 35px;
-}
-
-.footer .container .footer__content .footer__links ul li:first-child {
-  margin-bottom: 20px;
 }
 
 .wrapper {
@@ -700,3 +700,4 @@ h1, h2, h3, h4, h5, h6 {
 body {
   max-width: 100%;
 }
+/*# sourceMappingURL=style.css.map */
