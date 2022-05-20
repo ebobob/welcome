@@ -22,5 +22,9 @@ $(document).ready(function () {
 		const index = $(this).attr("data-slick-index");
 		$(".teacher_slider").slick("slickGoTo", index);
 	});
+	$(".main__btn").click(function () {
+		$("html, body").animate({ scrollTop: $(".main").height() + 4250 }, "slow");
+		return false;
+	});
 });
 AOS.init();
