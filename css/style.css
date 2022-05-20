@@ -414,8 +414,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .feedback .feedback__lines {
-  position: relative;
-  margin: 150px 0 0 0;
+  position: absolute;
+  top: 60%;
+  -webkit-transform: translateY(-60%);
+          transform: translateY(-60%);
 }
 
 .feedback .feedback__lines .line {
@@ -463,15 +465,19 @@ h1, h2, h3, h4, h5, h6 {
   height: 100vh;
 }
 
-.title {
+.partners .partners__content {
+  height: 100%;
+}
+
+.partners .partners__content .title {
   color: #003274;
 }
 
-.partners__companies {
+.partners .partners__content .partners__companies {
   margin-top: 45px;
 }
 
-.partners__companies .partners__item {
+.partners .partners__content .partners__companies .partners__item {
   margin: 0 auto;
   width: 100%;
   margin-bottom: 60px;
@@ -480,7 +486,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 20px;
 }
 
-.partners__companies .partners__item img {
+.partners .partners__content .partners__companies .partners__item img {
   display: block;
   margin: 0 auto;
 }
@@ -501,11 +507,11 @@ h1, h2, h3, h4, h5, h6 {
   margin: 100px auto 0 auto;
 }
 
-.form__content {
+.form {
   height: 100vh;
 }
 
-.form__content .form__info ul li {
+.form .form__info ul li {
   margin-bottom: 45px;
   font-family: 'Montserrat';
   font-style: normal;
@@ -602,6 +608,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   width: 1200px;
+  height: 100%;
   margin: 0 auto;
 }
 
