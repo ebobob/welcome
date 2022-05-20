@@ -10,7 +10,7 @@
 @import "_video";
 @import "_form";
 @import "_footer";
-
+@import "_coordinates";
 
 .wrapper {
 	min-height: 100%;
@@ -44,4 +44,15 @@
 
 body {
 	max-width: 100%;
+}
+
+%list_style {
+	margin-bottom: 45px;
+	font-family: 'Montserrat';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 29px;
+	border-left: 3px solid #EE6C23;
+	padding-left: 10px;
 }

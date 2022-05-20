@@ -1,0 +1,36 @@
+.coordinates {
+	height: 100vh;
+	background: $color_blue_2;
+
+	.container {
+		.title {
+			color: white;
+		}
+
+		.coordinates__content {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+
+			.title {
+				text-align: left;
+				color: #fff;
+			}
+
+			.coordinates__info {
+				ul {
+					li {
+						@extend %list_style;
+						color: white;
+					}
+				}
+			}
+
+			.coordinates__map {
+				iframe {
+					border-radius: 12px;
+				}
+			}
+		}
+	}
+}
