@@ -9,6 +9,6 @@
 	Design 				-	Vitya
 	Web developers 			-	Danil, Sergey
 	Assistant			-	Ahtem
-	Just an amazing person		- 	Dmitry
+	Just an amazing person		- 	Artur Sharifov(Dmitry)
 
 <image src="giphy.webp" alt="giff">
