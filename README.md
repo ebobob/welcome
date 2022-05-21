@@ -7,6 +7,6 @@
 ## **Developers:**
 
 	Design 							-	Vitya
-	Web developers 					-	Danil, Sergey
+	Web developers 				-	Danil, Sergey
 	Assistant						-	Ahtem
-	Just an amazing person			- 	Dmitry
+	Just an amazing person		- 	Dmitry
