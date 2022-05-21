@@ -322,8 +322,8 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 24px;
   text-align: center;
   opacity: 0.52;
-  -webkit-transition: all 1s ease 0s;
-  transition: all 1s ease 0s;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
 }
 
 .teacher_slider .slider__item .image {
