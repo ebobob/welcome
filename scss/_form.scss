@@ -1,115 +1,122 @@
 .form {
 	height: 100vh;
 
-	.form__info {
-		ul {
-			li {
-				@extend %list_style;
-				color: #003274;
-			}
+	.container {
+		.title {
+			color: $color_blue;
 		}
-	}
-}
 
-.form__block {
-	background: #FFFFFF;
-	border-radius: 20px;
-	height: 440px;
-	width: 361px;
-	filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
-	display: flex;
-	justify-content: center;
-	align-items: center;
+		.form__content {
+			display: flex;
+			justify-content: space-between;
+			align-items: center;
+			height: 70%;
 
-	form {
-		display: flex;
-		flex-wrap: wrap;
-		justify-content: center;
+			.form__info {
+				ul {
+					li {
+						@extend %list_style;
+						color: #003274;
+					}
+				}
+			}
 
-		.form__row {
-			margin-bottom: 24px;
-			position: relative;
-
-			.form__data-input {
-				border: 3px solid #EE6C23;
+			.form__block {
+				background: #FFFFFF;
 				border-radius: 20px;
-				width: 295px;
-				height: 55px;
+				height: 440px;
+				width: 361px;
+				filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
+				display: flex;
+				justify-content: center;
+				align-items: center;
 
-				font-style: normal;
-				font-weight: 400;
-				font-size: 14px;
-				line-height: 14px;
-				color: black;
-				padding: 18px;
-				background-color: transparent;
-				opacity: 0.52;
-				outline: none;
-				transition: all 200ms ease;
+				form {
+					display: flex;
+					flex-wrap: wrap;
+					justify-content: center;
 
-				&:focus {
-					opacity: 1;
-				}
+					.form__row {
+						margin-bottom: 24px;
+						position: relative;
 
-				&:focus~.form__label {
-					opacity: 1;
-					font-size: 12px;
-					top: 5px;
-				}
+						.form__data-input {
+							border: 3px solid #EE6C23;
+							border-radius: 20px;
+							width: 295px;
+							height: 55px;
 
-				&:not(:placeholder-shown)~.form__label {
-					opacity: 0.52;
-					font-size: 12px;
-					top: 5px;
+							font: {
+								style: normal;
+								weight: 400;
+								size: 14px;
+							}
+
+							line-height: 14px;
+							color: black;
+							padding: 18px;
+							background-color: transparent;
+							opacity: 0.52;
+							outline: none;
+							transition: all 200ms ease;
+
+							&:focus {
+								opacity: 1;
+							}
+
+							&:focus~.form__label {
+								opacity: 1;
+								font-size: 12px;
+								top: 5px;
+							}
+
+							&:not(:placeholder-shown)~.form__label {
+								opacity: 0.52;
+								font-size: 12px;
+								top: 5px;
+							}
+						}
+
+						.form__label {
+							position: absolute;
+							left: 20px;
+							top: 20px;
+							z-index: -1;
+							color: $color_blue;
+							opacity: 0.52;
+							transition: all 200ms ease;
+							font-style: normal;
+							font-weight: 700;
+							font-size: 14px;
+							line-height: 14px;
+						}
+					}
+
+					.form__btn {
+						bottom: 17.76%;
+						width: 240px;
+						height: 55px;
+						font-style: normal;
+						font-weight: 700;
+						font-size: 16px;
+						line-height: 18px;
+						text-align: center;
+						color: #FFFFFF;
+						background: #F07E3F;
+						box-shadow: 0px 4px 32px -5px #FF8A00;
+						border-radius: 20px;
+						transition: all 500ms ease;
+					}
+
+					.form__btn:hover {
+						background: #F4945F;
+					}
+
+					.form__btn:active {
+						background: #E26723;
+					}
 				}
 			}
-
-			.form__label {
-				position: absolute;
-				left: 20px;
-				top: 20px;
-
-				z-index: -1;
-				color: $color_blue;
-				opacity: 0.52;
-				transition: all 200ms ease;
-
-				font-style: normal;
-				font-weight: 700;
-				font-size: 14px;
-				line-height: 14px;
-			}
-		}
-
-		.form__btn {
-			bottom: 17.76%;
-			width: 240px;
-			height: 55px;
-			font-style: normal;
-			font-weight: 700;
-			font-size: 16px;
-			line-height: 18px;
-			text-align: center;
-			color: #FFFFFF;
-			background: #F07E3F;
-			box-shadow: 0px 4px 32px -5px #FF8A00;
-			border-radius: 20px;
-			transition: all 500ms ease;
-		}
-
-		.form__btn:hover {
-			background: #F4945F;
-		}
-
-		.form__btn:active {
-			background: #E26723;
 		}
 	}
-}
-
-.form__content {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	height: 70%;
 }

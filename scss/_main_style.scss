@@ -49,14 +49,16 @@
 			height: 60px;
 			left: 320px;
 			top: 552px;
-
-			background: #F07E3F;
+			background: $color_orange;
 			box-shadow: 0px 4px 32px -5px #FF8A00;
 			border-radius: 20px;
 
-			font-style: normal;
-			font-weight: 700;
-			font-size: 24px;
+			font: {
+				style: normal;
+				weight: 700;
+				size: 24px;
+			}
+
 			line-height: 28px;
 			text-align: center;
 			color: #FFFFFF;
