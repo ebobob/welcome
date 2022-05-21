@@ -6,9 +6,9 @@
 
 ## **Developers:**
 
-	Design 							-	Vitya
-	Web developers 				-	Danil, Sergey
-	Assistant						-	Ahtem
-	Just an amazing person		- 	Dmitry
+	Design 				-	Vitya
+	Web developers 			-	Danil, Sergey
+	Assistant			-	Ahtem
+	Just an amazing person		- 	Artur Sharifov(Dmitry)
 
 <image src="Ao.gif" alt="giff">
