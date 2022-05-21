@@ -11,4 +11,4 @@
 	Assistant						-	Ahtem
 	Just an amazing person		- 	Dmitry
 
-<image src="giphy.webp" alt="giff">
+<image src="Ao.gif" alt="giff">
