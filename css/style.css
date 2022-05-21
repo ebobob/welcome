@@ -218,8 +218,6 @@ h1, h2, h3, h4, h5, h6 {
 .main__info .info__title button {
   width: 240px;
   height: 60px;
-  left: 320px;
-  top: 552px;
   background: #F07E3F;
   -webkit-box-shadow: 0px 4px 32px -5px #FF8A00;
           box-shadow: 0px 4px 32px -5px #FF8A00;
@@ -621,8 +619,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .form .container .form__content .form__block form .form__btn {
-  bottom: 17.76%;
-  width: 240px;
+  width: 295px;
   height: 55px;
   font-style: normal;
   font-weight: 700;
