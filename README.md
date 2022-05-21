@@ -10,3 +10,5 @@
 	Web developers 				-	Danil, Sergey
 	Assistant						-	Ahtem
 	Just an amazing person		- 	Dmitry
+
+<image src="giphy.webp" alt="giff">
