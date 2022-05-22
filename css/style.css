@@ -762,6 +762,18 @@ h1, h2, h3, h4, h5, h6 {
   margin: 0 auto;
 }
 
+@media (max-width: 1284px) {
+  .container {
+    max-width: 1000px;
+  }
+}
+
+@media (max-width: 767px) {
+  .container {
+    max-width: none;
+  }
+}
+
 .title {
   font-family: 'Montserrat';
   font-style: normal;
