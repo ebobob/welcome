@@ -34,7 +34,13 @@
 .slider {
 	position: relative;
 	padding: 0px 60px;
-	width: 480px;
+	max-width: 480px;
+
+	@media (max-width: 1087px) {
+		max-width: 80%;
+		margin: 0 auto;
+		margin-top: 32px;
+	}
 
 	.slick-arrow {
 		position: absolute;

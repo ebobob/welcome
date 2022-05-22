@@ -22,11 +22,19 @@
 	margin: 0 auto;
 
 	@media (max-width: 1284px) {
-			max-width: 1000px;
+		max-width: 1000px;
+	}
+
+	@media (max-width: 1087px) {
+		max-width: 800px;
+	}
+
+	@media (max-width: 895px) {
+		max-width: 700px;
 	}
 
 	@media (max-width: 767px) {
-			max-width: none;
+		max-width: none;
 	}
 }
 
@@ -62,4 +70,8 @@ body {
 	line-height: 29px;
 	border-left: 3px solid #EE6C23;
 	padding-left: 10px;
+
+	@media (max-width: 1087px) {
+		padding-right: 50px;
+	}
 }

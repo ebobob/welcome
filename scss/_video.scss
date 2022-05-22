@@ -1,16 +1,24 @@
 .video {
-    height: 100vh;
-    background: $color_blue_2;
-    .video__content {
-        
-        .title {
-            text-align: left;
-            color: #fff;
-        }
-        .video__block {
-            max-width: 960px;
-            height: 500px;
-            margin: 100px auto 0 auto;
-        }
-    }
+	height: 100vh;
+	background: $color_blue_2;
+
+	.video__content {
+
+		.title {
+			text-align: left;
+			color: #fff;
+		}
+
+		.video__block {
+			max-width: 960px;
+			max-height: 500px;
+			margin: 100px auto 0 auto;
+
+			@media (max-width: 1087px) {
+				video{
+					max-width: 760px;
+				}
+			}
+		}
+	}
 }

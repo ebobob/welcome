@@ -17,6 +17,14 @@ $(document).ready(function () {
 		speed: 800,
 		easing: 'ease',
 		centerMode: true,
+		responsive: [
+			{
+				breakpoint: 1088,
+				settings: {
+					slidesToShow: 1,
+				}
+			}
+		]
 	});
 	$(".teacher_slider .slider__item").on("click", function () {
 		const index = $(this).attr("data-slick-index");

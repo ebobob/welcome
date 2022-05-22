@@ -12,6 +12,10 @@
 			align-items: center;
 			height: 70%;
 
+			@media (max-width: 1087px) {
+				display: inline;
+			}
+
 			.form__info {
 				ul {
 					li {
@@ -31,10 +35,19 @@
 				justify-content: center;
 				align-items: center;
 
+				@media (max-width: 1087px) {
+					margin: 0 auto;
+					width: 661px;
+				}
+
 				form {
 					display: flex;
 					flex-wrap: wrap;
 					justify-content: center;
+
+					@media (max-width: 1087px) {
+						display: inline;
+					}
 
 					.form__row {
 						margin-bottom: 24px;
@@ -45,6 +58,10 @@
 							border-radius: 20px;
 							width: 295px;
 							height: 55px;
+
+							@media (max-width: 1087px) {
+								width: 595px;
+							}
 
 							font: {
 								style: normal;
@@ -95,13 +112,9 @@
 					.form__btn {
 						width: 295px;
 						height: 55px;
-
-						font: {
-							style: normal;
-							weight: 700;
-							size: 16px;
-						}
-
+						font-style: normal;
+						font-weight: 700;
+						font-size: 16px;
 						line-height: 18px;
 						text-align: center;
 						color: #FFFFFF;
@@ -109,15 +122,18 @@
 						box-shadow: 0px 4px 32px -5px #FF8A00;
 						border-radius: 20px;
 						transition: all 500ms ease;
-						position: relative;
 
-						&:hover {
-							background: #F4945F;
+						@media (max-width: 1087px) {
+							width: 595px;
 						}
+					}
 
-						&:active {
-							background: #E26723;
-						}
+					.form__btn:hover {
+						background: #F4945F;
+					}
+
+					.form__btn:active {
+						background: #E26723;
 					}
 				}
 			}
