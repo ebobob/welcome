@@ -95,9 +95,13 @@
 					.form__btn {
 						width: 295px;
 						height: 55px;
-						font-style: normal;
-						font-weight: 700;
-						font-size: 16px;
+
+						font: {
+							style: normal;
+							weight: 700;
+							size: 16px;
+						}
+
 						line-height: 18px;
 						text-align: center;
 						color: #FFFFFF;
@@ -105,14 +109,15 @@
 						box-shadow: 0px 4px 32px -5px #FF8A00;
 						border-radius: 20px;
 						transition: all 500ms ease;
-					}
+						position: relative;
 
-					.form__btn:hover {
-						background: #F4945F;
-					}
+						&:hover {
+							background: #F4945F;
+						}
 
-					.form__btn:active {
-						background: #E26723;
+						&:active {
+							background: #E26723;
+						}
 					}
 				}
 			}

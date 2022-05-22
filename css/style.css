@@ -644,6 +644,7 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 20px;
   -webkit-transition: all 500ms ease;
   transition: all 500ms ease;
+  position: relative;
 }
 
 .form .container .form__content .form__block form .form__btn:hover {
@@ -758,7 +759,6 @@ h1, h2, h3, h4, h5, h6 {
 
 .container {
   max-width: 1200px;
-  height: 100%;
   margin: 0 auto;
 }
 
