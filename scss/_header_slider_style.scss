@@ -52,6 +52,10 @@
 		margin-bottom: 52px;
 	}
 
+	@media (max-width: 378px) {
+		max-width: 240px;
+	}
+
 
 	.slick-arrow {
 		position: absolute;
@@ -90,6 +94,10 @@
 
 		@media (max-width: 658px) {
 			max-width: 230px;
+		}
+
+		@media (max-width: 378px) {
+			max-width: 120px;
 		}
 	}
 }

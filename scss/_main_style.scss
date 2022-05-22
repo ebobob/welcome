@@ -8,12 +8,22 @@
 	padding-top: 64px;
 	margin-bottom: 213px;
 
+	@media (max-width: 378px) {
+		display: inline;
+	}
+
 	.main__phone {
 		display: flex;
 		width: 12 0px;
 		align-items: center;
 		color: $color_blue_2;
 		font-size: 24px;
+
+		@media (max-width: 378px) {
+			font-size: 16px;
+			margin-top: 52px;
+			margin-bottom: 52px;
+		}
 
 		img {
 			width: 21px;
