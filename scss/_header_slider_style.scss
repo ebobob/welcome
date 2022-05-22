@@ -40,6 +40,19 @@
 		max-width: 450px;
 	}
 
+	@media (max-width: 719px) {
+		max-width: 410px;
+	}
+
+	@media (max-width: 658px) {
+		max-width: 360px;
+	}
+
+	@media (max-width: 622px) {
+		margin-bottom: 32px;
+	}
+
+
 	.slick-arrow {
 		position: absolute;
 		top: 50%;
@@ -69,6 +82,14 @@
 
 		@media (max-width: 1087px) {
 			max-width: 320px;
+		}
+
+		@media (max-width: 719px) {
+			max-width: 290px;
+		}
+
+		@media (max-width: 658px) {
+			max-width: 230px;
 		}
 	}
 }
