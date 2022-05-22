@@ -37,9 +37,7 @@
 	max-width: 480px;
 
 	@media (max-width: 1087px) {
-		max-width: 80%;
-		margin: 0 auto;
-		margin-top: 32px;
+		max-width: 450px;
 	}
 
 	.slick-arrow {
@@ -68,5 +66,9 @@
 
 	img {
 		border-radius: 15px;
+
+		@media (max-width: 1087px) {
+			max-width: 320px;
+		}
 	}
 }

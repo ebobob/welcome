@@ -126,9 +126,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 1087px) {
   .slider {
-    max-width: 80%;
-    margin: 0 auto;
-    margin-top: 32px;
+    max-width: 450px;
   }
 }
 
@@ -159,6 +157,12 @@ h1, h2, h3, h4, h5, h6 {
 
 .slider__item img {
   border-radius: 15px;
+}
+
+@media (max-width: 1087px) {
+  .slider__item img {
+    max-width: 320px;
+  }
 }
 
 .main {
@@ -204,12 +208,6 @@ h1, h2, h3, h4, h5, h6 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-@media (max-width: 1087px) {
-  .main__info {
-    display: inline;
-  }
 }
 
 .main__info .info__title {
