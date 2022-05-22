@@ -200,6 +200,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .main__info .info__title {
   width: 560px;
+  position: relative;
 }
 
 .main__info .info__title h1 {
@@ -238,6 +239,16 @@ h1, h2, h3, h4, h5, h6 {
 
 .main__info .info__title button:active {
   background: #E26723;
+}
+
+.main__info .info__title button:before {
+  content: '';
+  position: absolute;
+  right: 300px;
+  bottom: -20px;
+  width: 280px;
+  height: 100px;
+  border-radius: 20px;
 }
 
 .about {
@@ -583,8 +594,8 @@ h1, h2, h3, h4, h5, h6 {
   background-color: transparent;
   opacity: 0.52;
   outline: none;
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
 }
 
 .form .container .form__content .form__block form .form__row .form__data-input:focus {
@@ -610,8 +621,8 @@ h1, h2, h3, h4, h5, h6 {
   z-index: -1;
   color: #003274;
   opacity: 0.52;
-  -webkit-transition: all 200ms ease;
-  transition: all 200ms ease;
+  -webkit-transition: all 250ms ease;
+  transition: all 250ms ease;
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
