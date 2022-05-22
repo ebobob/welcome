@@ -58,7 +58,7 @@
 							background-color: transparent;
 							opacity: 0.52;
 							outline: none;
-							transition: all 200ms ease;
+							transition: all 250ms ease;
 
 							&:focus {
 								opacity: 1;
@@ -84,7 +84,7 @@
 							z-index: -1;
 							color: $color_blue;
 							opacity: 0.52;
-							transition: all 200ms ease;
+							transition: all 250ms ease;
 							font-style: normal;
 							font-weight: 700;
 							font-size: 14px;
