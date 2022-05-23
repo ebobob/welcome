@@ -20,38 +20,6 @@
 .container {
 	max-width: 1200px;
 	margin: 0 auto;
-
-	@media (max-width: 1284px) {
-		max-width: 1000px;
-	}
-
-	@media (max-width: 1087px) {
-		max-width: 800px;
-	}
-
-	@media (max-width: 895px) {
-		max-width: 700px;
-	}
-
-	@media (max-width: 751px) {
-		max-width: 650px;
-	}
-
-	@media (max-width: 719px) {
-		max-width: 550px;
-	}
-
-	@media (max-width: 658px) {
-		max-width: 450px;
-	}
-
-	@media (max-width: 622px) {
-		max-width: 350px;
-	}
-
-	@media (max-width: 378px) {
-		max-width: 250px;
-	}
 }
 
 .title {
@@ -91,3 +59,5 @@ body {
 		padding-right: 50px;
 	}
 }
+
+@import "_adaptive";

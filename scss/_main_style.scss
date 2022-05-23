@@ -1,5 +1,6 @@
 .main {
-	height: 100vh;
+	min-height: 100vh;
+	padding-bottom: 110px;
 }
 
 .main__header {
@@ -8,22 +9,12 @@
 	padding-top: 64px;
 	margin-bottom: 213px;
 
-	@media (max-width: 378px) {
-		display: inline;
-	}
-
-	.main__phone {
+	.main__phone a {
 		display: flex;
 		width: 12 0px;
 		align-items: center;
 		color: $color_blue_2;
 		font-size: 24px;
-
-		@media (max-width: 378px) {
-			font-size: 16px;
-			margin-top: 52px;
-			margin-bottom: 52px;
-		}
 
 		img {
 			width: 21px;
@@ -38,10 +29,6 @@
 	justify-content: space-between;
 	align-items: center;
 
-	@media (max-width: 622px) {
-		flex-wrap: wrap-reverse;
-	}
-
 	.info__title {
 		max-width: 560px;
 		position: relative;
@@ -52,39 +39,12 @@
 			margin-bottom: 32px;
 			font-weight: bold;
 			max-width: 493px;
-
-			@media (max-width: 895px) {
-				max-width: 393px;
-				font-size: 30px;
-			}
-
-			@media (max-width: 719px) {
-				font-size: 25px;
-				max-width: 293px;
-			}
-
-			@media (max-width: 658px) {
-				font-size: 20px;
-			}
 		}
 
 		p {
 			font-size: 24px;
 			color: $color_blue;
 			margin-bottom: 32px;
-
-			@media (max-width: 895px) {
-				max-width: 393px;
-				font-size: 20px;
-			}
-
-			@media (max-width: 719px) {
-				font-size: 18px;
-			}
-
-			@media (max-width: 658px) {
-				font-size: 16px;
-			}
 		}
 
 		button {
@@ -93,27 +53,6 @@
 			background: $color_orange;
 			box-shadow: 0px 4px 32px -5px #FF8A00;
 			border-radius: 20px;
-
-			@media (max-width: 895px) {
-				width: 240px;
-				height: 50px;
-				font-size: 20px;
-			}
-
-			@media (max-width: 719px) {
-				width: 190px;
-				font-size: 18px;
-			}
-
-			@media (max-width: 658px) {
-				height: 40px;
-				width: 180px;
-				font-size: 16px;
-			}
-
-			@media (max-width: 622px) {
-				width: 100%;
-			}
 
 			&:hover {
 				background: #F4945F;

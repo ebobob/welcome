@@ -1,8 +1,8 @@
 .feedback {
-	height: 100vh;
 	background-color: $color_blue_2;
 	overflow: hidden;
 	position: relative;
+	padding-bottom: 110px;
 
 	.feedback__content {
 		.title {
@@ -15,10 +15,8 @@
 	}
 
 	.feedback__lines {
-		position: absolute;
-		top: 60%;
-		transform: translateY(-60%);
-
+		margin-top: 55px;
+		
 		.line {
 			display: flex;
 			position: relative;

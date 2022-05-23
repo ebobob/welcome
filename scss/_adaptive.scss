@@ -1,0 +1,147 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        padding: 0 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1.title {
+        font-size: 36px;
+    }
+
+    p.sub__title {
+        font-size: 20px;
+    }
+
+    .about .about__content .education__programs {
+        flex-wrap: wrap;
+        gap: 20px;
+
+        .program {
+            width: calc(50% - 10px);
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .main__info {
+        flex-direction: column-reverse;
+        gap: 100px;
+        text-align: center;
+
+        .info__title h1 {
+            max-width: none;
+        }
+    }
+
+    .main__header {
+        margin-bottom: 120px;
+    }
+
+    .slider {
+        max-width: 100%;
+
+        &__item img {
+            max-width: 100%;
+            width: 80%;
+        }
+    }
+
+    .feedback {
+        &__lines {
+            h3 {
+                font-size: 24px !important;
+            }
+
+            p {
+                font-size: 18px !important;
+            }
+
+            .line {
+                width: 300% !important;
+            }
+        }
+    }
+
+    .form {
+        .form__content {
+            flex-direction: column;
+            align-items: flex-start;
+        }
+
+        .form__block {
+            width: 100%;
+        }
+
+        form {
+            width: 100%;
+
+            input {
+                width: 100% !important;
+            }
+        }
+    }
+
+    .coordinates {
+        &__content {
+            flex-direction: column;
+            align-items: flex-start !important;
+
+            iframe {
+                width: 100% !important;
+            }
+        }
+
+        &__map {
+            width: 100%;
+        }
+    }
+}
+
+@media screen and (max-width: 480px) {
+    h1.title {
+        font-size: 32px;
+    }
+
+    p.sub__title {
+        font-size: 18px;
+    }
+
+    .about .about__content .education__programs {
+        .program {
+            width: 100%;
+        }
+    }
+
+    .feedback {
+        &__lines {
+            .line {
+                width: 500% !important;
+            }
+        }
+    }
+
+    .main__info {
+        gap: 40px;
+    }
+
+    .slider {
+        padding: 0;
+
+        &__item img {
+            width: 100%;
+        }
+
+        .slick-arrow {
+            display: none !important;
+        }
+    }
+
+    .main__phone {
+        p {
+            display: none !important;
+        }
+    }
+}

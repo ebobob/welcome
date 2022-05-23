@@ -1,140 +1,112 @@
 .form {
-	height: 100vh;
+	padding-bottom: 110px;
 
-	.container {
-		.title {
-			color: $color_blue;
+	.title {
+		color: $color_blue;
+	}
+
+	.form__content {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		height: 70%;
+
+		.form__info {
+			ul {
+				li {
+					@extend %list_style;
+					color: #003274;
+				}
+			}
 		}
 
-		.form__content {
+		.form__block {
+			background: #FFFFFF;
+			border-radius: 20px;
+			padding: 44px 33px;
+			filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
 			display: flex;
-			justify-content: space-between;
+			justify-content: center;
 			align-items: center;
-			height: 70%;
 
-			@media (max-width: 1087px) {
-				display: inline;
-			}
+			form {
+				.form__row {
+					margin-bottom: 24px;
+					position: relative;
 
-			.form__info {
-				ul {
-					li {
-						@extend %list_style;
-						color: #003274;
-					}
-				}
-			}
-
-			.form__block {
-				background: #FFFFFF;
-				border-radius: 20px;
-				height: 440px;
-				width: 361px;
-				filter: drop-shadow(0px 4px 20px rgba(0, 0, 0, 0.25));
-				display: flex;
-				justify-content: center;
-				align-items: center;
-
-				@media (max-width: 1087px) {
-					margin: 0 auto;
-					width: 661px;
-				}
-
-				form {
-					display: flex;
-					flex-wrap: wrap;
-					justify-content: center;
-
-					@media (max-width: 1087px) {
-						display: inline;
-					}
-
-					.form__row {
-						margin-bottom: 24px;
-						position: relative;
-
-						.form__data-input {
-							border: 3px solid $color_orange_2;
-							border-radius: 20px;
-							width: 295px;
-							height: 55px;
-
-							@media (max-width: 1087px) {
-								width: 595px;
-							}
-
-							font: {
-								style: normal;
-								weight: 400;
-								size: 14px;
-							}
-
-							line-height: 14px;
-							color: black;
-							padding: 18px;
-							background-color: transparent;
-							opacity: 0.52;
-							outline: none;
-							transition: all 250ms ease;
-
-							&:focus {
-								opacity: 1;
-							}
-
-							&:focus~.form__label {
-								opacity: 1;
-								font-size: 12px;
-								top: 5px;
-							}
-
-							&:not(:placeholder-shown)~.form__label {
-								opacity: 0.52;
-								font-size: 12px;
-								top: 5px;
-							}
-						}
-
-						.form__label {
-							position: absolute;
-							left: 20px;
-							top: 20px;
-							z-index: -1;
-							color: $color_blue;
-							opacity: 0.52;
-							transition: all 250ms ease;
-							font-style: normal;
-							font-weight: 700;
-							font-size: 14px;
-							line-height: 14px;
-						}
-					}
-
-					.form__btn {
+					.form__data-input {
+						border: 3px solid $color_orange_2;
+						border-radius: 20px;
 						width: 295px;
 						height: 55px;
-						font-style: normal;
-						font-weight: 700;
-						font-size: 16px;
-						line-height: 18px;
-						text-align: center;
-						color: #FFFFFF;
-						background: #F07E3F;
-						box-shadow: 0px 4px 32px -5px #FF8A00;
-						border-radius: 20px;
-						transition: all 500ms ease;
 
-						@media (max-width: 1087px) {
-							width: 595px;
+						font: {
+							style: normal;
+							weight: 400;
+							size: 14px;
+						}
+
+						line-height: 14px;
+						color: black;
+						padding: 18px;
+						background-color: transparent;
+						opacity: 0.52;
+						outline: none;
+						transition: all 250ms ease;
+
+						&:focus {
+							opacity: 1;
+						}
+
+						&:focus~.form__label {
+							opacity: 1;
+							font-size: 12px;
+							top: 5px;
+						}
+
+						&:not(:placeholder-shown)~.form__label {
+							opacity: 0.52;
+							font-size: 12px;
+							top: 5px;
 						}
 					}
 
-					.form__btn:hover {
-						background: #F4945F;
+					.form__label {
+						position: absolute;
+						left: 20px;
+						top: 20px;
+						z-index: -1;
+						color: $color_blue;
+						opacity: 0.52;
+						transition: all 250ms ease;
+						font-style: normal;
+						font-weight: 700;
+						font-size: 14px;
+						line-height: 14px;
 					}
+				}
 
-					.form__btn:active {
-						background: #E26723;
-					}
+				.form__btn {
+					width: 295px;
+					height: 55px;
+					font-style: normal;
+					font-weight: 700;
+					font-size: 16px;
+					line-height: 18px;
+					text-align: center;
+					color: #FFFFFF;
+					background: #F07E3F;
+					box-shadow: 0px 4px 32px -5px #FF8A00;
+					border-radius: 20px;
+					transition: all 500ms ease;
+				}
+
+				.form__btn:hover {
+					background: #F4945F;
+				}
+
+				.form__btn:active {
+					background: #E26723;
 				}
 			}
 		}

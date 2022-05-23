@@ -1,6 +1,6 @@
 .video {
-	height: 100vh;
 	background: $color_blue_2;
+	padding-bottom: 110px;
 
 	.video__content {
 
@@ -14,10 +14,8 @@
 			max-height: 500px;
 			margin: 100px auto 0 auto;
 
-			@media (max-width: 1087px) {
-				video{
-					max-width: 760px;
-				}
+			video {
+				width: 100%;
 			}
 		}
 	}
