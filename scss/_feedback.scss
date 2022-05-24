@@ -16,8 +16,38 @@
 
 	.feedback__lines {
 		margin-top: 55px;
-		
+
+
+		@keyframes go-left-right {
+			from {
+				right: 0px;
+			}
+
+			to {
+				left: calc(0% + 5px);
+			}
+
+		}
+
+		@keyframes go-right-left {
+			from {
+				left: 0px;
+			}
+
+			to {
+				right: calc(100% + 800px);
+			}
+		}
+
 		.line {
+			&:first-child {
+				animation: go-right-left 20s infinite alternate;
+			}
+
+			&:last-child {
+				animation: go-left-right 20s infinite alternate;
+			}
+
 			display: flex;
 			position: relative;
 			border-top: 2px solid #fff;

@@ -176,7 +176,6 @@ h1, h2, h3, h4, h5, h6 {
 .slider__item {
   text-align: center;
   -webkit-transition: all 0.3s ease 0s;
-  -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s;
 }
 
@@ -287,7 +286,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   color: #FFFFFF;
   -webkit-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
@@ -394,7 +392,6 @@ h1, h2, h3, h4, h5, h6 {
   text-align: center;
   opacity: 0.52;
   -webkit-transition: 0.8s;
-  -o-transition: 0.8s;
   transition: 0.8s;
   width: 280px;
 }
@@ -477,6 +474,42 @@ h1, h2, h3, h4, h5, h6 {
   margin-top: 55px;
 }
 
+@-webkit-keyframes go-left-right {
+  from {
+    right: 0px;
+  }
+  to {
+    left: calc(0% + 5px);
+  }
+}
+
+@keyframes go-left-right {
+  from {
+    right: 0px;
+  }
+  to {
+    left: calc(0% + 5px);
+  }
+}
+
+@-webkit-keyframes go-right-left {
+  from {
+    left: 0px;
+  }
+  to {
+    right: calc(100% + 800px);
+  }
+}
+
+@keyframes go-right-left {
+  from {
+    left: 0px;
+  }
+  to {
+    right: calc(100% + 800px);
+  }
+}
+
 .feedback .feedback__lines .line {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -486,6 +519,16 @@ h1, h2, h3, h4, h5, h6 {
   border-bottom: 2px solid #fff;
   width: 200%;
   left: -50%;
+}
+
+.feedback .feedback__lines .line:first-child {
+  -webkit-animation: go-right-left 20s infinite alternate;
+          animation: go-right-left 20s infinite alternate;
+}
+
+.feedback .feedback__lines .line:last-child {
+  -webkit-animation: go-left-right 20s infinite alternate;
+          animation: go-left-right 20s infinite alternate;
 }
 
 .feedback .feedback__lines .line .line__item {
@@ -638,7 +681,6 @@ h1, h2, h3, h4, h5, h6 {
   opacity: 0.52;
   outline: none;
   -webkit-transition: all 250ms ease;
-  -o-transition: all 250ms ease;
   transition: all 250ms ease;
 }
 
@@ -666,7 +708,6 @@ h1, h2, h3, h4, h5, h6 {
   color: #003274;
   opacity: 0.52;
   -webkit-transition: all 250ms ease;
-  -o-transition: all 250ms ease;
   transition: all 250ms ease;
   font-style: normal;
   font-weight: 700;
@@ -688,7 +729,6 @@ h1, h2, h3, h4, h5, h6 {
           box-shadow: 0px 4px 32px -5px #FF8A00;
   border-radius: 20px;
   -webkit-transition: all 500ms ease;
-  -o-transition: all 500ms ease;
   transition: all 500ms ease;
 }
 
