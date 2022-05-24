@@ -8,7 +8,7 @@
 
 	Design 				-	Vitya
 	Web developers 			-	Danil, Sergey
-	Assistant			-	Ahtem
+	Assistant, adaptive		-	Ahtem
 	Just an amazing person		- 	Artur Sharifov(Dmitry)
 
 <image src="Ao.gif" alt="giff">
